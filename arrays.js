@@ -22,10 +22,7 @@ console.log(colorCopy)
 
 const numbers = [1, 2, 3, 4, 5]
 
-numbers.pop()
-numbers.shift()
-
-const middleNums = numbers.slice()
+const middleNums = numbers.slice(1, 4)
 
 console.log(middleNums)
 

@@ -6,7 +6,7 @@
 */
 
 function sum(num1, num2){
-  return(num1 +num2)
+  return num1 + num2
 }
 let answer = sum(3, 4)
 
@@ -26,7 +26,7 @@ function greaterThanFive(number) {
   } else {
     return false
   }
-  }
+}
 
 console.log(greaterThanFive(4))
 
@@ -39,7 +39,7 @@ console.log(greaterThanFive(4))
 */
 
 function findZWords(word) {
-  if ((word).startsWith('Z')) {
+  if (word.startsWith('Z' && 'z')) {
     return 'the name begins with Z'
   } else {
     return 'the name does not begin with Z'
